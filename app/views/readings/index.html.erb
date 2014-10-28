@@ -1,0 +1,29 @@
+<h1>Listing readings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value</th>
+      <th>Player</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @readings.each do |reading| %>
+      <tr>
+        <td><%= reading.key %></td>
+        <td><%= reading.value %></td>
+        <td><%= reading.player.name %></td>
+        <td><%= link_to 'Show', player_reading_path(reading.player.id, reading.id) %></td>
+        <td><%= link_to 'Edit', edit_player_reading_path(reading.player.id, reading.id) %></td>
+        <td><%= link_to 'Destroy', player_reading_path(reading.player.id, reading.id), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Reading', new_player_reading_path %>

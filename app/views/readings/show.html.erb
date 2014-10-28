@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Key:</strong>
+  <%= @reading.key %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @reading.value %>
+</p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @reading.player.name %>
+</p>
+
+<%= link_to 'Edit',  edit_player_reading_path(@reading.player.id, @reading.id) %> |
+<%= link_to 'Back', player_readings_path %>

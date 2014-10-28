@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2348236516">
+    <data-source source="LOCAL" name="Rails osman: development" uuid="156aa80c-348e-4370-b404-e2be709ef14e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:osman</jdbc-url>
+      <user-name>zain</user-name>
+      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails osman: test" uuid="31207ac8-4f1b-4d87-bdbd-bd2f8e0c48b3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:osman_test</jdbc-url>
+      <user-name>zain</user-name>
+      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails osman: production" uuid="02e7edde-98a5-44c5-a199-61404fe3e440">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:osman_production</jdbc-url>
+      <user-name>osman</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe5dff9dfe7dfebdfe4dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
