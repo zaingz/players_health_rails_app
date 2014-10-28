@@ -94,5 +94,5 @@ production:
   pool: 5
   port: 5432
   url:  postgres://zglbcxslgwgvpd:LOGOxKjliifJVsf8WezULqh23L@ec2-54-243-42-236.compute-1.amazonaws.com:5432/d8l76p2vmugjlk
-
+  psql: heroku pg:psql --app player-data HEROKU_POSTGRESQL_ROSE
   database: d8l76p2vmugjlk
