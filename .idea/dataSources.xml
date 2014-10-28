@@ -20,9 +20,9 @@
     <data-source source="LOCAL" name="Rails osman: production" uuid="02e7edde-98a5-44c5-a199-61404fe3e440">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:osman_production</jdbc-url>
-      <user-name>osman</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe5dff9dfe7dfebdfe4dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/d8l76p2vmugjlk</jdbc-url>
+      <user-name>zglbcxslgwgvpd</user-name>
+      <user-password>dfe6dfe5dfeddfe5dfd2dfe1dfc0dfc6dfc3dfc3dfccdfe0dffcdfd9dfccdf92dffddfcfdfd0dfffdfe6dfdbdfc2df98df99dfe6</user-password>
       <libraries />
     </data-source>
   </component>
