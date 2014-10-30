@@ -4,7 +4,10 @@ class ReadingsController < ApplicationController
   # GET /readings
   # GET /readings.json
   def index
-    @readings = Reading.all
+
+    @readings = Array.new
+    @readings <<( Reading.find_by_player_id params[:player_id] )
+
   end
 
   # GET /readings/1
@@ -69,7 +72,5 @@ class ReadingsController < ApplicationController
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def reading_params
-      params.require(:reading).permit(:key, :value, :player_id)
-    end
+
 end
