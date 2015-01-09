@@ -3,7 +3,6 @@ class CreatePlayers < ActiveRecord::Migration
     create_table :players do |t|
       t.string :name, default: 'player', null: false
       t.integer :age
-
       t.timestamps
     end
   end

@@ -5,26 +5,40 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:osman</jdbc-url>
-      <user-name>zain</user-name>
-      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
-      <libraries />
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+        </library>
+      </libraries>
     </data-source>
     <data-source source="LOCAL" name="Rails osman: test" uuid="31207ac8-4f1b-4d87-bdbd-bd2f8e0c48b3">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:osman_test</jdbc-url>
-      <user-name>zain</user-name>
-      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
-      <libraries />
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+        </library>
+      </libraries>
     </data-source>
     <data-source source="LOCAL" name="Rails osman: production" uuid="02e7edde-98a5-44c5-a199-61404fe3e440">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/d8l76p2vmugjlk</jdbc-url>
-      <user-name>zglbcxslgwgvpd</user-name>
-      <user-password>dfe6dfe5dfeddfe5dfd2dfe1dfc0dfc6dfc3dfc3dfccdfe0dffcdfd9dfccdf92dffddfcfdfd0dfffdfe6dfdbdfc2df98df99dfe6</user-password>
-      <libraries />
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine60/config/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
-

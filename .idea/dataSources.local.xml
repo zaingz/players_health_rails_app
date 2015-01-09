@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails osman: development" uuid="156aa80c-348e-4370-b404-e2be709ef14e">
+      <user-name>zain</user-name>
+      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+    </data-source>
+    <data-source name="Rails osman: test" uuid="31207ac8-4f1b-4d87-bdbd-bd2f8e0c48b3">
+      <user-name>zain</user-name>
+      <user-password>dfc4dfc3dfcbdfd0dfd9dfd9dfc9</user-password>
+    </data-source>
+    <data-source name="Rails osman: production" uuid="02e7edde-98a5-44c5-a199-61404fe3e440">
+      <user-name>zglbcxslgwgvpd</user-name>
+      <user-password>dfe6dfe5dfeddfe5dfd2dfe1dfc0dfc6dfc3dfc3dfccdfe0dffcdfd9dfccdf92dffddfcfdfd0dfffdfe6dfdbdfc2df98df99dfe6</user-password>
+    </data-source>
+  </component>
+</project>
